@@ -26,6 +26,15 @@ gem 'jquery-turbolinks'
 gem 'bower-rails'
 gem 'puma'
 
+
+gem "grape", "~> 0.11.0"
+gem "json-jwt", "~> 0.8.0"
+gem 'rack-cors', '~> 0.3.1'
+gem "httparty", "~> 0.13.3"
+gem "uuidtools", "~> 2.1.5"
+gem "bunny", "~> 1.7.0"
+gem "logging", '~> 1.8.2'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
