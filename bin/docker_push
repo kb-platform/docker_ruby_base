@@ -1,0 +1,6 @@
+#!/bin/bash
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+source $DIR/docker_version
+
+echo "Pushing $IMAGE_NAME:$IMAGE_VERSION"
+docker push $IMAGE_NAME:$IMAGE_VERSION

@@ -1,0 +1,3 @@
+#!/bin/bash
+export IMAGE_NAME=marcusbaguley/docker_ruby_base
+export IMAGE_VERSION=`cat VERSION | xargs`
