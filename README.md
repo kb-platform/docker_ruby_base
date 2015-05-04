@@ -5,4 +5,10 @@ To build a new image
 
 Then push the image
 
-./bin/docker_push
+
+For QUAY:
+
+docker tag REF quay.io/marcusbaguley/docker_ruby_base
+docker push quay.io/marcusbaguley/docker_ruby_base
+
+# FOR docker.io which we are not using: ./bin/docker_push
